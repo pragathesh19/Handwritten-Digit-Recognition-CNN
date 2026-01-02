@@ -1,0 +1,40 @@
+# Handwritten Digit Recognition using CNN
+
+This project implements a Handwritten Digit Recognition system using a Convolutional Neural Network (CNN).
+
+## Project Description
+The objective of this project is to classify handwritten digits (0–9) from grayscale images using deep learning techniques.
+
+## Dataset
+- MNIST Handwritten Digit Dataset
+- Images size: 28x28 pixels
+- 10 classes (digits 0 to 9)
+
+Note: The MNIST dataset is loaded using TensorFlow's inbuilt dataset loader.
+
+## Methodology
+1. Load the MNIST dataset
+2. Normalize and reshape image data
+3. Build a CNN model
+4. Train the model using training data
+5. Evaluate accuracy on test data
+6. Predict digits for new images
+
+## Model Architecture
+- Convolutional Layers
+- Max Pooling Layers
+- Fully Connected Dense Layers
+- Softmax Output Layer
+
+## Tools and Technologies
+- Python
+- TensorFlow / Keras
+- Jupyter Notebook
+- NumPy
+- Matplotlib
+
+## Result
+The CNN model achieved high accuracy in recognizing handwritten digits.
+
+## Conclusion
+This project demonstrates the effectiveness of Convolutional Neural Networks in image classification tasks.
